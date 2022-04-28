@@ -1,0 +1,1 @@
+SELECT * FROM tabel_kandang, tabel_ayam, tabel_penempatan WHERE tabel_penempatan.id_ayam = tabel_ayam.id_ayam & tabel_penempatan.id_kandang = tabel_kandang.id_kandang
